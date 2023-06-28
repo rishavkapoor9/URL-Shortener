@@ -57,7 +57,7 @@ cd ../client
 npm start
 ```
 
-This will start the server and client applications concurrently, allowing you to access the URL shortener application at [http://localhost:3000](http://localhost:3000).
+The server will run on http://localhost:4000, and the client will run on http://localhost:3000.
 
 ## Usage
 
