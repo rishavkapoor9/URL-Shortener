@@ -4,8 +4,10 @@ This project is a URL shortener application built using the MERN stack (MongoDB,
 
 ## Features
 
+- Authentication: The application supports secure authentication using express-sessions and passport. 
 - Shorten long URLs: The application generates a unique short URL for any provided long URL.
 - Custom note addition: Users can add optional notes while creating short URLs, allowing them to provide additional context or information.
+- All the URLs and notes will be saved in the user's account allowing them to access them even if they login after a long time.
 - URL searching: Users can search for specific URLs using the associated notes, making it easier to locate and manage saved URLs.
 
 ## Technology Stack
